@@ -11,6 +11,7 @@ import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.key.Key.Companion.W
 import androidx.compose.ui.tooling.preview.Preview
 import com.newtechieblog.wordpress.compose.replyapp.ui.ReplyApp
 import com.newtechieblog.wordpress.compose.replyapp.ui.theme.ReplyTheme
@@ -38,6 +39,26 @@ fun ReplyAppCompactPreview() {
             ReplyApp(
                 windowSize = WindowWidthSizeClass.Compact,
             )
+        }
+    }
+}
+
+@Preview(showBackground = true, widthDp = 700)
+@Composable
+fun ReplyAppMediumPreview() {
+    ReplyTheme {
+        Surface {
+            ReplyApp(windowSize = WindowWidthSizeClass.Medium)
+        }
+    }
+}
+
+@Preview(showBackground = true, widthDp = 1000)
+@Composable
+fun ReplyAppExpandedPreview() {
+    ReplyTheme {
+        Surface {
+            ReplyApp(windowSize = WindowWidthSizeClass.Expanded)
         }
     }
 }

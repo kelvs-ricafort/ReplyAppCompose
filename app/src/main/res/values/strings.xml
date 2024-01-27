@@ -84,7 +84,7 @@
 
     <string name="email_2_subject">Bonjour from Paris</string>
     <string name="email_2_body">
-        Here are some great shots from my trip...
+        Here are some great shots from my trip
     </string>
     <string name="email_2_time">1 hour ago</string>
 
@@ -160,4 +160,5 @@
         link.
     </string>
     <string name="email_11_time">3 hours ago</string>
+
 </resources>

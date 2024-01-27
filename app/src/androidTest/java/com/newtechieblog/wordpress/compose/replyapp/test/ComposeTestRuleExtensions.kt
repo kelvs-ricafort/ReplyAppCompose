@@ -1,4 +1,4 @@
-package com.newtechieblog.wordpress.compose.replyapp
+package com.newtechieblog.wordpress.compose.replyapp.test
 
 import androidx.activity.ComponentActivity
 import androidx.annotation.StringRes
